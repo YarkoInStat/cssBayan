@@ -48,6 +48,7 @@ body {
     width: 1vw;
     background-image: url('./open.svg');
     background-repeat: no-repeat;
+    opacity: 0;
 }
 
 .first-line, .second-line, .third-line, .fourth-line, .fifth-line {
@@ -132,6 +133,10 @@ body {
 .accordion:hover .text {
     color: #000000;
     transition: 0.3s;
+}
+
+.accordion:hover .icon {
+    opacity: 1;
 }
 
 .line-wrap {
@@ -386,26 +391,6 @@ input {
 
     .icon {
         width: 3vw;
-    }
-
-    .block-1:hover .image {
-        height: 10vh;
-    }
-
-    .block-2:hover .image {
-        height: 10vh;
-    }
-
-    .block-3:hover .image {
-        height: 10vh;
-    }
-
-    .block-4:hover .image {
-        height: 10vh;
-    }
-
-    .block-5:hover .image {
-        height: 20vh;
     }
 
     .line-wrap:has( > .first-line:checked) + .image {
