@@ -13,8 +13,6 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     margin: 0 auto;
-    /* max-width: 100%; */
-    /* min-height: 100%; */
     padding: 25vh 25vw;
     row-gap: 1vh;
 }
@@ -26,20 +24,6 @@ body {
 .accordion {
     font-size: 1.5em;
     max-width: 50vw;
-    row-gap: 1vh;
-}
-
-.wrap {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.line {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     row-gap: 1vh;
 }
 
@@ -444,4 +428,3 @@ input {
         height: 20vh;
     }
 }
-
