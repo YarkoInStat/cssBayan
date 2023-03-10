@@ -1,0 +1,181 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    max-width: 50vw;
+    min-height: 100vh;
+    padding: 25vh 25vw;
+    row-gap: 10px;
+}
+
+.container-name {
+    font-size: 5em;
+}
+
+.accordion {
+    font-size: 1.5em;
+    max-width: 50vw;
+    /* display: flex; */
+    /* flex-direction: column; */
+    row-gap: 10px;
+    /* flex-wrap: nowrap; */
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.line {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.label {
+    /* max-width: 20%; */
+    transition: 1s;
+    /* min-height: 10vh; */
+    cursor: pointer;
+    width: 35%;
+    color: rgb(0, 95, 190);
+}
+
+.first-line, .second-line, .third-line, .fourth-line, .fifth-line {
+    display: flex;
+    width: 65%;
+}
+
+.radio:hover {
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    display: flex;
+    justify-content: space-around;
+
+    width: 0;
+    height: 0;
+}
+
+.block-1, .block-2, .block-3, .block-4, .block-5 {
+    max-width: 100vw;
+    padding: 10px;
+    border-top: 1px solid rgb(206, 113, 7);
+}
+
+.accordion:hover .label {
+    color: rgb(221, 139, 15);
+}
+
+.accordion:hover .label {
+    color: rgb(221, 139, 15);
+}
+
+.accordion:hover .label {
+    color: rgb(221, 139, 15);
+}
+
+.accordion:hover .label {
+    color: rgb(221, 139, 15);
+}
+
+.accordion:hover .label {
+    color: rgb(221, 139, 15);
+}
+
+.block-1:hover .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.first-line:checked + .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.first-line:checked + .label {
+    color: #000
+}
+
+.second-line:checked + .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.third-line:checked + .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.fourth-line:checked + .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.fourth-line:checked + .label {
+    color: #000
+}
+
+.fifth-line:checked + .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.block-2:hover .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.block-3:hover .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.block-4:hover .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+.block-5:hover .image {
+    width: 100%;
+    height: 25vh;
+    transition: 1s;
+}
+
+
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* border-radius: 50%; */
+    width: 100vw;
+    height: 3vh;
+    /* border: 2px solid #999; */
+    /* transition: 0.2s all linear; */
+    /* outline: none; */
+    /* margin-right: 5px; */
+    /* position: relative; */
+    /* top: 4px; */
+    
+  }
