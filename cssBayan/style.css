@@ -1,19 +1,15 @@
-body {
-	width: 100vw;
-	height: 100vh;
-}
-
 .main {
 	width: 100vw;
 	height: 100vh;
 }
 
 .container {
-	display: flex;
+	/* display: flex; */
 	flex-direction: column;
 	justify-content: flex-start;
 	margin: auto;
-	padding: 25vh 25vw;
+	max-width: 50vw;
+	/* padding: 25vh 25vw; */
 	row-gap: 1vh;
 }
 
@@ -188,6 +184,7 @@ body {
 .block-1:hover .icon {
 	background-image: url('./close.svg');
 	background-repeat: no-repeat;
+	transition: 0.3s;
 }
 
 .block-2:hover .image {
@@ -261,16 +258,18 @@ input {
 		margin: auto;
 		width: 80vw;
 		height: 70vh;
-		padding: 15vh 10vw;
 		justify-content: center;
+		max-width: 100vw;
+		padding-top: 15vh;
+		/* min-height: 100vh; */
 	}
 
 	.container-name {
-		font-size: 4.5em;
+		font-size: 5em;
 	}
 
 	.accordion {
-		font-size: 2em;
+		font-size: 2.5em;
 		max-width: 100vw;
 	}
 
@@ -279,43 +278,43 @@ input {
 	}
 
 	.block-1:hover .image {
-		height: 25vh;
+		height: 22vh;
 	}
 
 	.block-2:hover .image {
-		height: 25vh;
+		height: 22vh;
 	}
 
 	.block-3:hover .image {
-		height: 25vh;
+		height: 22vh;
 	}
 
 	.block-4:hover .image {
-		height: 25vh;
+		height: 22vh;
 	}
 
 	.block-5:hover .image {
-		height: 40vh;
+		height: 35vh;
 	}
 
 	.line-wrap:has(> .first-line:checked) + .image {
-		height: 25vh;
+		height: 22vh;
 	}
 
 	.line-wrap:has(> .second-line:checked) + .image {
-		height: 25vh;
+		height: 22vh;
 	}
 
 	.line-wrap:has(> .third-line:checked) + .image {
-		height: 25vh;
+		height: 22vh;
 	}
 
 	.line-wrap:has(> .fourth-line:checked) + .image {
-		height: 25vh;
+		height: 22vh;
 	}
 
 	.line-wrap:has(> .fifth-line:checked) + .image {
-		height: 40vh;
+		height: 35vh;
 	}
 }
 
@@ -324,7 +323,8 @@ input {
 		margin: auto;
 		width: 80vw;
 		height: 50vh;
-		padding: 25vh 10vw;
+		max-width: 50vw;
+		padding-top: 25vh;
 		justify-content: center;
 	}
 
@@ -385,7 +385,7 @@ input {
 @media screen and (max-width: 850px), (max-height: 700px) {
 	.container {
 		margin: auto;
-		width: 80vw;
+		max-width: 80vw;
 		height: 40vh;
 		padding: 30vh 10vw;
 		justify-content: center;
@@ -448,7 +448,7 @@ input {
 @media screen and (max-width: 475px), (max-height: 400px) {
 	.container {
 		margin: auto;
-		width: 80vw;
+		max-width: 80vw;
 		height: 50vh;
 		padding: 25vh 10vw;
 		justify-content: center;
@@ -510,10 +510,10 @@ input {
 
 @media screen and (max-width: 320px), (max-height: 568px) {
 	.container {
-		margin: 0 auto;
-		width: 90vw;
+		/* margin: 0 auto; */
+		max-width: 96vw;
 		height: 80vh;
-		padding: 10vh 5vw;
+		padding: 10vh 2vw;
 	}
 
 	.container-name {
