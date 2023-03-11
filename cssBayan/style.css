@@ -261,7 +261,7 @@ input {
 		margin: 0 auto;
 		max-width: 100vw;
 		max-height: 100vh;
-		padding: 15vh 30vh;
+		padding: 15vh 10vw;
 	}
 
 	.container-name {
@@ -278,81 +278,81 @@ input {
 	}
 
 	.block-1:hover .image {
-		height: 25vh;
+		height: 20vh;
 	}
 
 	.block-2:hover .image {
-		height: 25vh;
+		height: 20vh;
 	}
 
 	.block-3:hover .image {
-		height: 25vh;
+		height: 20vh;
 	}
 
 	.block-4:hover .image {
-		height: 25vh;
+		height: 20vh;
 	}
 
 	.block-5:hover .image {
-		height: 40vh;
+		height: 35vh;
 	}
 
 	.line-wrap:has(> .first-line:checked) + .image {
-		height: 25vh;
+		height: 20vh;
 	}
 
 	.line-wrap:has(> .second-line:checked) + .image {
-		height: 25vh;
+		height: 20vh;
 	}
 
 	.line-wrap:has(> .third-line:checked) + .image {
-		height: 25vh;
+		height: 20vh;
 	}
 
 	.line-wrap:has(> .fourth-line:checked) + .image {
-		height: 25vh;
+		height: 20vh;
 	}
 
 	.line-wrap:has(> .fifth-line:checked) + .image {
-		height: 40vh;
+		height: 35vh;
 	}
 }
 
 @media screen and (max-width: 1180px), (max-height: 820px) {
 	.container {
 		margin: 0 auto;
-		max-width: 100vw;
-		max-height: 100vh;
-		padding: 20vh 25vh;
+		max-width: 100%;
+		max-height: 100%;
+		padding: 25vh 10vw;
 	}
 
 	.container-name {
-		font-size: 3em;
+		font-size: 3.5em;
 	}
 
 	.accordion {
-		font-size: 1.5em;
+		font-size: 2em;
 		max-width: 100vw;
 	}
 
 	.icon {
-		width: 3vw;
+		width: 5vw;
 	}
 
 	.block-1:hover .image {
-		height: 20vh;
+		height: 15vh;
 	}
 
 	.block-2:hover .image {
-		height: 20vh;
+		height: 15vh;
 	}
 
 	.block-3:hover .image {
-		height: 20vh;
+		height: 15vh;
 	}
 
 	.block-4:hover .image {
-		height: 20vh;
+		height: 15vh;
 	}
 
 	.block-5:hover .image {
@@ -360,19 +360,19 @@ input {
 	}
 
 	.line-wrap:has(> .first-line:checked) + .image {
-		height: 20vh;
+		height: 15vh;
 	}
 
 	.line-wrap:has(> .second-line:checked) + .image {
-		height: 20vh;
+		height: 15vh;
 	}
 
 	.line-wrap:has(> .third-line:checked) + .image {
-		height: 20vh;
+		height: 15vh;
 	}
 
 	.line-wrap:has(> .fourth-line:checked) + .image {
-		height: 20vh;
+		height: 15vh;
 	}
 
 	.line-wrap:has(> .fifth-line:checked) + .image {
@@ -380,12 +380,136 @@ input {
 	}
 }
 
+@media screen and (max-width: 850px), (max-height: 700px) {
+	.container {
+		margin: 0 auto;
+		max-width: 100%;
+		max-height: 100%;
+		padding: 25vh 10vw;
+	}
+
+	.container-name {
+		font-size: 2em;
+	}
+
+	.accordion {
+		font-size: 1em;
+		max-width: 100vw;
+	}
+
+	.icon {
+		width: 5vw;
+	}
+
+	.block-1:hover .image {
+		height: 10vh;
+	}
+
+	.block-2:hover .image {
+		height: 10vh;
+	}
+
+	.block-3:hover .image {
+		height: 10vh;
+	}
+
+	.block-4:hover .image {
+		height: 10vh;
+	}
+
+	.block-5:hover .image {
+		height: 17vh;
+	}
+
+	.line-wrap:has(> .first-line:checked) + .image {
+		height: 10vh;
+	}
+
+	.line-wrap:has(> .second-line:checked) + .image {
+		height: 10vh;
+	}
+
+	.line-wrap:has(> .third-line:checked) + .image {
+		height: 10vh;
+	}
+
+	.line-wrap:has(> .fourth-line:checked) + .image {
+		height: 10vh;
+	}
+
+	.line-wrap:has(> .fifth-line:checked) + .image {
+		height: 17vh;
+	}
+}
+
+@media screen and (max-width: 475px), (max-height: 700px) {
+	.container {
+		margin: 0 auto;
+		max-width: 100%;
+		max-height: 100%;
+		padding: 25vh 10vw;
+	}
+
+	.container-name {
+		font-size: 2em;
+	}
+
+	.accordion {
+		font-size: 0.8em;
+		max-width: 100vw;
+	}
+
+	.icon {
+		width: 5vw;
+	}
+
+	.block-1:hover .image {
+		height: 7vh;
+	}
+
+	.block-2:hover .image {
+		height: 7vh;
+	}
+
+	.block-3:hover .image {
+		height: 7vh;
+	}
+
+	.block-4:hover .image {
+		height: 7vh;
+	}
+
+	.block-5:hover .image {
+		height: 10vh;
+	}
+
+	.line-wrap:has(> .first-line:checked) + .image {
+		height: 7vh;
+	}
+
+	.line-wrap:has(> .second-line:checked) + .image {
+		height: 7vh;
+	}
+
+	.line-wrap:has(> .third-line:checked) + .image {
+		height: 7vh;
+	}
+
+	.line-wrap:has(> .fourth-line:checked) + .image {
+		height: 7vh;
+	}
+
+	.line-wrap:has(> .fifth-line:checked) + .image {
+		height: 10vh;
+	}
+}
+
 @media screen and (max-width: 320px), (max-height: 568px) {
 	.container {
 		margin: 0 auto;
-		max-width: 100vw;
-		max-height: 100vh;
-		padding: 30vh 5vh;
+		max-width: 100%;
+		max-height: 100%;
+		padding: 25vh 10vw;
 	}
 
 	.container-name {
@@ -422,22 +546,22 @@ input {
 	} */
 
 	.line-wrap:has(> .first-line:checked) + .image {
-		height: 10vh;
+		height: 5vh;
 	}
 
 	.line-wrap:has(> .second-line:checked) + .image {
-		height: 10vh;
+		height: 5vh;
 	}
 
 	.line-wrap:has(> .third-line:checked) + .image {
-		height: 10vh;
+		height: 5vh;
 	}
 
 	.line-wrap:has(> .fourth-line:checked) + .image {
-		height: 10vh;
+		height: 5vh;
 	}
 
 	.line-wrap:has(> .fifth-line:checked) + .image {
-		height: 20vh;
+		height: 5vh;
 	}
 }
