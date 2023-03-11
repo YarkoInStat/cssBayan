@@ -135,15 +135,6 @@
 	transition: 0.3s;
 }
 
-.accordion:hover .text {
-	color: #000000;
-	transition: 0.3s;
-}
-
-.accordion:hover .icon {
-	opacity: 1;
-}
-
 .line-wrap {
 	display: flex;
 	justify-content: space-between;
@@ -175,62 +166,6 @@
 	transition: 0.3s;
 }
 
-.block-1:hover .image {
-	width: 100%;
-	height: 25vh;
-	transition: 0.3s;
-}
-
-.block-1:hover .icon {
-	background-image: url('./close.svg');
-	background-repeat: no-repeat;
-	transition: 0.3s;
-}
-
-.block-2:hover .image {
-	width: 100%;
-	height: 25vh;
-	transition: 0.3s;
-}
-
-.block-2:hover .icon {
-	background-image: url('./close.svg');
-	background-repeat: no-repeat;
-}
-
-.block-3:hover .image {
-	width: 100%;
-	height: 25vh;
-	transition: 0.3s;
-}
-
-.block-3:hover .icon {
-	background-image: url('./close.svg');
-	background-repeat: no-repeat;
-}
-
-.block-4:hover .image {
-	width: 100%;
-	height: 25vh;
-	transition: 0.3s;
-}
-
-.block-4:hover .icon {
-	background-image: url('./close.svg');
-	background-repeat: no-repeat;
-}
-
-.block-5:hover .image {
-	width: 100%;
-	height: 30vh;
-	transition: 0.3s;
-}
-
-.block-5:hover .icon {
-	background-image: url('./close.svg');
-	background-repeat: no-repeat;
-}
-
 input {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -238,19 +173,110 @@ input {
 	cursor: pointer;
 }
 
-.label:hover {
-	cursor: pointer;
-	transition: 0.3s;
-}
-
-.line-wrap:hover .text {
-	color: #000000;
-	transition: 0.3s;
-}
-
 .label:active .text {
 	color: #1b32ff;
 	transition: 0.3s;
+}
+
+@media (hover: hover) {
+
+	.accordion:hover .text {
+		color: #000000;
+		transition: 0.3s;
+	}
+
+	.accordion:hover .icon {
+		opacity: 1;
+	}
+
+	.block-1:hover .image {
+		width: 100%;
+		height: 25vh;
+		transition: 0.3s;
+	}
+
+	.block-1:hover .icon {
+		background-image: url('./close.svg');
+		background-repeat: no-repeat;
+		transition: 0.3s;
+	}
+
+	.block-2:hover .image {
+		width: 100%;
+		height: 25vh;
+		transition: 0.3s;
+	}
+
+	.block-2:hover .icon {
+		background-image: url('./close.svg');
+		background-repeat: no-repeat;
+	}
+
+	.block-3:hover .image {
+		width: 100%;
+		height: 25vh;
+		transition: 0.3s;
+	}
+
+	.block-3:hover .icon {
+		background-image: url('./close.svg');
+		background-repeat: no-repeat;
+	}
+
+	.block-4:hover .image {
+		width: 100%;
+		height: 25vh;
+		transition: 0.3s;
+	}
+
+	.block-4:hover .icon {
+		background-image: url('./close.svg');
+		background-repeat: no-repeat;
+	}
+
+	.block-5:hover .image {
+		width: 100%;
+		height: 30vh;
+		transition: 0.3s;
+	}
+
+	.block-5:hover .icon {
+		background-image: url('./close.svg');
+		background-repeat: no-repeat;
+	}
+
+	.label:hover {
+		cursor: pointer;
+		transition: 0.3s;
+	}
+
+	.line-wrap:hover .text {
+		color: #000000;
+		transition: 0.3s;
+	}
+}
+
+@media (hover: hover) and (max-width: 1920px), (max-height: 1080px) {
+
+	.block-1:hover .image {
+		height: 22vh;
+	}
+
+	.block-2:hover .image {
+		height: 22vh;
+	}
+
+	.block-3:hover .image {
+		height: 22vh;
+	}
+
+	.block-4:hover .image {
+		height: 22vh;
+	}
+
+	.block-5:hover .image {
+		height: 35vh;
+	}
 }
 
 @media screen and (max-width: 1920px), (max-height: 1080px) {
@@ -277,26 +303,6 @@ input {
 		width: 3vw;
 	}
 
-	.block-1:hover .image {
-		height: 22vh;
-	}
-
-	.block-2:hover .image {
-		height: 22vh;
-	}
-
-	.block-3:hover .image {
-		height: 22vh;
-	}
-
-	.block-4:hover .image {
-		height: 22vh;
-	}
-
-	.block-5:hover .image {
-		height: 35vh;
-	}
-
 	.line-wrap:has(> .first-line:checked) + .image {
 		height: 22vh;
 	}
@@ -315,6 +321,29 @@ input {
 
 	.line-wrap:has(> .fifth-line:checked) + .image {
 		height: 35vh;
+	}
+}
+
+@media (hover: hover) and (max-width: 1180px), (max-height: 820px) {
+
+	.block-1:hover .image {
+		height: 15vh;
+	}
+
+	.block-2:hover .image {
+		height: 15vh;
+	}
+
+	.block-3:hover .image {
+		height: 15vh;
+	}
+
+	.block-4:hover .image {
+		height: 15vh;
+	}
+
+	.block-5:hover .image {
+		height: 30vh;
 	}
 }
 
@@ -341,26 +370,6 @@ input {
 		width: 5vw;
 	}
 
-	.block-1:hover .image {
-		height: 15vh;
-	}
-
-	.block-2:hover .image {
-		height: 15vh;
-	}
-
-	.block-3:hover .image {
-		height: 15vh;
-	}
-
-	.block-4:hover .image {
-		height: 15vh;
-	}
-
-	.block-5:hover .image {
-		height: 30vh;
-	}
-
 	.line-wrap:has(> .first-line:checked) + .image {
 		height: 15vh;
 	}
@@ -379,6 +388,29 @@ input {
 
 	.line-wrap:has(> .fifth-line:checked) + .image {
 		height: 30vh;
+	}
+}
+
+@media (hover: hover) and (max-width: 850px), (max-height: 700px) {
+
+	.block-1:hover .image {
+		height: 10vh;
+	}
+
+	.block-2:hover .image {
+		height: 10vh;
+	}
+
+	.block-3:hover .image {
+		height: 10vh;
+	}
+
+	.block-4:hover .image {
+		height: 10vh;
+	}
+
+	.block-5:hover .image {
+		height: 17vh;
 	}
 }
 
@@ -404,26 +436,6 @@ input {
 		width: 5vw;
 	}
 
-	.block-1:hover .image {
-		height: 10vh;
-	}
-
-	.block-2:hover .image {
-		height: 10vh;
-	}
-
-	.block-3:hover .image {
-		height: 10vh;
-	}
-
-	.block-4:hover .image {
-		height: 10vh;
-	}
-
-	.block-5:hover .image {
-		height: 17vh;
-	}
-
 	.line-wrap:has(> .first-line:checked) + .image {
 		height: 10vh;
 	}
@@ -442,6 +454,28 @@ input {
 
 	.line-wrap:has(> .fifth-line:checked) + .image {
 		height: 17vh;
+	}
+}
+
+@media (hover: hover) and (max-width: 475px), (max-height: 400px) {
+	.block-1:hover .image {
+		height: 7vh;
+	}
+
+	.block-2:hover .image {
+		height: 7vh;
+	}
+
+	.block-3:hover .image {
+		height: 7vh;
+	}
+
+	.block-4:hover .image {
+		height: 7vh;
+	}
+
+	.block-5:hover .image {
+		height: 10vh;
 	}
 }
 
@@ -467,26 +501,6 @@ input {
 		width: 5vw;
 	}
 
-	.block-1:hover .image {
-		height: 7vh;
-	}
-
-	.block-2:hover .image {
-		height: 7vh;
-	}
-
-	.block-3:hover .image {
-		height: 7vh;
-	}
-
-	.block-4:hover .image {
-		height: 7vh;
-	}
-
-	.block-5:hover .image {
-		height: 10vh;
-	}
-
 	.line-wrap:has(> .first-line:checked) + .image {
 		height: 7vh;
 	}
@@ -510,10 +524,11 @@ input {
 
 @media screen and (max-width: 320px), (max-height: 568px) {
 	.container {
-		/* margin: 0 auto; */
+		justify-content: center;
+		margin: auto;
 		max-width: 96vw;
-		height: 80vh;
-		padding: 10vh 2vw;
+		/* height: 80vh; */
+		/* padding: 10vh 2vw; */
 	}
 
 	.container-name {
@@ -528,26 +543,6 @@ input {
 	.icon {
 		width: 3vw;
 	}
-
-	/* .block-1:hover .image {
-		height: 10vh;
-	}
-
-	.block-2:hover .image {
-		height: 10vh;
-	}
-
-	.block-3:hover .image {
-		height: 10vh;
-	}
-
-	.block-4:hover .image {
-		height: 10vh;
-	}
-
-	.block-5:hover .image {
-		height: 20vh;
-	} */
 
 	.line-wrap:has(> .first-line:checked) + .image {
 		height: 5vh;
