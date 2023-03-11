@@ -111,31 +111,31 @@ body {
 
 .line-wrap:has(> .first-line:checked) + .image {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	transition: 0.3s;
 }
 
 .line-wrap:has(> .second-line:checked) + .image {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	transition: 0.3s;
 }
 
 .line-wrap:has(> .third-line:checked) + .image {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	transition: 0.3s;
 }
 
 .line-wrap:has(> .fourth-line:checked) + .image {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	transition: 0.3s;
 }
 
 .line-wrap:has(> .fifth-line:checked) + .image {
 	width: 100%;
-	height: 45vh;
+	height: 30vh;
 	transition: 0.3s;
 }
 
@@ -192,7 +192,7 @@ body {
 
 .block-2:hover .image {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	transition: 0.3s;
 }
 
@@ -203,7 +203,7 @@ body {
 
 .block-3:hover .image {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	transition: 0.3s;
 }
 
@@ -214,7 +214,7 @@ body {
 
 .block-4:hover .image {
 	width: 100%;
-	height: 30vh;
+	height: 25vh;
 	transition: 0.3s;
 }
 
@@ -225,7 +225,7 @@ body {
 
 .block-5:hover .image {
 	width: 100%;
-	height: 45vh;
+	height: 30vh;
 	transition: 0.3s;
 }
 
