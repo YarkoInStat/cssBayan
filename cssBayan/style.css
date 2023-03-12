@@ -68,6 +68,7 @@
 	cursor: pointer;
 	width: 0;
 	height: 0;
+	transition: 0.3s;
 }
 
 .block-1,
@@ -184,6 +185,7 @@ input {
 
 	.accordion:hover .icon {
 		opacity: 1;
+		transition: 0.3s;
 	}
 
 	.block-1:hover .image {
@@ -207,6 +209,7 @@ input {
 	.block-2:hover .icon {
 		background-image: url('./close.svg');
 		background-repeat: no-repeat;
+		transition: 0.3s;
 	}
 
 	.block-3:hover .image {
@@ -218,6 +221,7 @@ input {
 	.block-3:hover .icon {
 		background-image: url('./close.svg');
 		background-repeat: no-repeat;
+		transition: 0.3s;
 	}
 
 	.block-4:hover .image {
@@ -229,6 +233,7 @@ input {
 	.block-4:hover .icon {
 		background-image: url('./close.svg');
 		background-repeat: no-repeat;
+		transition: 0.3s;
 	}
 
 	.block-5:hover .image {
@@ -240,6 +245,7 @@ input {
 	.block-5:hover .icon {
 		background-image: url('./close.svg');
 		background-repeat: no-repeat;
+		transition: 0.3s;
 	}
 
 	.label:hover {
@@ -262,22 +268,27 @@ input {
 
 	.block-1:hover .image {
 		height: 22vh;
+		transition: 0.3s;
 	}
 
 	.block-2:hover .image {
 		height: 22vh;
+		transition: 0.3s;
 	}
 
 	.block-3:hover .image {
 		height: 22vh;
+		transition: 0.3s;
 	}
 
 	.block-4:hover .image {
 		height: 22vh;
+		transition: 0.3s;
 	}
 
 	.block-5:hover .image {
 		height: 35vh;
+		transition: 0.3s;
 	}
 }
 
@@ -330,22 +341,27 @@ input {
 
 	.block-1:hover .image {
 		height: 15vh;
+		transition: 0.3s;
 	}
 
 	.block-2:hover .image {
 		height: 15vh;
+		transition: 0.3s;
 	}
 
 	.block-3:hover .image {
 		height: 15vh;
+		transition: 0.3s;
 	}
 
 	.block-4:hover .image {
 		height: 15vh;
+		transition: 0.3s;
 	}
 
 	.block-5:hover .image {
 		height: 30vh;
+		transition: 0.3s;
 	}
 }
 
@@ -397,22 +413,27 @@ input {
 
 	.block-1:hover .image {
 		height: 10vh;
+		transition: 0.3s;
 	}
 
 	.block-2:hover .image {
 		height: 10vh;
+		transition: 0.3s;
 	}
 
 	.block-3:hover .image {
 		height: 10vh;
+		transition: 0.3s;
 	}
 
 	.block-4:hover .image {
 		height: 10vh;
+		transition: 0.3s;
 	}
 
 	.block-5:hover .image {
 		height: 17vh;
+		transition: 0.3s;
 	}
 }
 
@@ -462,22 +483,27 @@ input {
 @media (hover: hover) and (max-width: 475px), (max-height: 400px) {
 	.block-1:hover .image {
 		height: 7vh;
+		transition: 0.3s;
 	}
 
 	.block-2:hover .image {
 		height: 7vh;
+		transition: 0.3s;
 	}
 
 	.block-3:hover .image {
 		height: 7vh;
+		transition: 0.3s;
 	}
 
 	.block-4:hover .image {
 		height: 7vh;
+		transition: 0.3s;
 	}
 
 	.block-5:hover .image {
 		height: 10vh;
+		transition: 0.3s;
 	}
 }
 
