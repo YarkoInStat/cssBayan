@@ -173,10 +173,7 @@ input {
 	cursor: pointer;
 }
 
-.label:active .text {
-	color: #1b32ff;
-	transition: 0.3s;
-}
+
 
 @media (hover: hover) {
 
@@ -252,6 +249,11 @@ input {
 
 	.line-wrap:hover .text {
 		color: #000000;
+		transition: 0.3s;
+	}
+
+	.label:active .text {
+		color: #1b32ff;
 		transition: 0.3s;
 	}
 }
